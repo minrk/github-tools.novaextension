@@ -58,7 +58,7 @@ async function getRemoteUrl(repoRoot, remote) {
     url = url.slice(0, -4);
   }
   // light parsing of URLs
-  if (url.indexOf("@")) {
+  if (url.indexOf("@") >= 0) {
     // turn git@github.com:minrk/foo
     // into https://github.com/minrk/foo
     const parts = url.slice(url.indexOf("@") + 1).split(":");
