@@ -35,4 +35,3 @@ Defines the following commands:
 
 - "Open on GitHub" - which opens the current file (and selected line range) on GitHub. No default key-bindings, but I use cmd-option-G.
 - "Copy GitHub reference to Clipboard" - copies the reference URL to the clipboard
-
