@@ -11,6 +11,11 @@ nova.commands.register("github-tools.openFile", async (workspace) => {
   nova.openURL(url);
 });
 
+nova.commands.register("github-tools.copyReference", async (workspace) => {
+  var url = await getUrl(workspace);
+  nova.clipboard.writeText(url);
+})
+
 // TODO: option?
 const git = "/usr/bin/git";
 
