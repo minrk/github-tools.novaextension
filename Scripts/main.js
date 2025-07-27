@@ -11,7 +11,7 @@ nova.commands.register("github-tools.openFile", async (workspace) => {
   nova.openURL(url);
 });
 
-nova.commands.register("github-tools.copyReference", async (workspace) => {
+nova.commands.register("github-tools.copyUrl", async (workspace) => {
   var url = await getUrl(workspace);
   nova.clipboard.writeText(url);
 });
