@@ -3,7 +3,7 @@
   "name": "GitHub tools",
   "organization": "minrk",
   "description": "Tools for working with GitHub (open on GitHub)",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "categories": ["commands"],
   "license": "MIT",
   "homepage": "https://github.com/minrk/github-tools.novaextension",
@@ -25,7 +25,7 @@
         "command": "github-tools.openFile"
       },
       {
-        "title": "Copy GitHub URL to Clipboard",
+        "title": "Copy GitHub URL",
         "command": "github-tools.copyUrl"
       }
     ]

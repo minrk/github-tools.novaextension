@@ -2,6 +2,6 @@
 
 Initial release
 
-## Version 1.0.1
+## Version 1.1.0
 
-Added `Copy GitHub Reference to Clipboard` command
+Added `Copy GitHub URL` command
